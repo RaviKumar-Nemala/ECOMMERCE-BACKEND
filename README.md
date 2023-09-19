@@ -1,18 +1,30 @@
-# Ecommerce Application Frontend
+# Ecommerce Backend
 
 ## Introduction
 
-Welcome to the Ecommerce Application Frontend repository! This repository contains the frontend code for our ecommerce application.
+Welcome to the Ecommerce Backend repository! This repository contains the backend code for our ecommerce application. Our backend is built using Spring Boot and utilizes a MySQL database. It provides various essential features for the functioning of our ecommerce platform.
 
 ## Features
 
-- *Auto-Search Completion* : Our application provides a real-time search completion feature, making it easier for users to find the products they're looking for.
+1. User Authentication and Login Mechanism
 
-- *Brand and Category Filtering* : Users can easily filter products based on their preferred brands and categories, helping them narrow down their choices and find the perfect items.
+Our backend provides a robust user authentication and login mechanism to ensure the security of user accounts and data.
 
-- *Integrated Payment Gateway* : We have integrated a payment gateway to facilitate secure and convenient payment processing for our users.
+2. Cart Module
 
-- *Backend Integration* : The frontend is connected to a Spring Boot backend server, which serves as the data source for product information, user data, and more.
+We have implemented a comprehensive cart module that allows users to add, update, and manage items in their shopping carts. This module is crucial for a seamless shopping experience.
+
+3. Email Integration
+
+Our backend is integrated with a mail server to send emails. This feature is utilized for various purposes, including account-related notifications, order confirmations, and password reset emails.
+
+4. Forget Password Mechanism
+
+We have implemented a forget password mechanism that enables users to recover their accounts by resetting their passwords via email. This feature enhances user account security and convenience.
+
+5. Payment Gateway Integration (Test Mode)
+
+To facilitate secure and convenient payment processing, our backend is integrated with a payment gateway (in test mode). This allows users to make payments for the products they wish to purchase.
 
 ## Getting Started
 
@@ -21,4 +33,4 @@ To get started with the project, follow these steps:
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/
+   git clone https://github.com/RaviKumar-Nemala/ECOMMERCE-BACKEND
