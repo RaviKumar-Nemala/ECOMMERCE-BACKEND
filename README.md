@@ -32,5 +32,21 @@ To get started with the project, follow these steps:
 
 1. Clone this repository to your local machine:
 
-   ```bash
-   git clone https://github.com/RaviKumar-Nemala/ECOMMERCE-BACKEND
+      git clone https://github.com/RaviKumar-Nemala/ECOMMERCE-BACKEND
+
+
+2. Navigate to the project directory:
+
+      cd src
+
+
+3. Configure the database properties in the application.properties file
+
+
+4. create an account in the razorpay for get the api key and secret key
+
+
+5. add the paymentgateway api key and secret key in the application.properties file
+
+
+6. click on the run button on any ide like ( Intellej or Springtoolsuite or Vsstudio)
